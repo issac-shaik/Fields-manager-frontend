@@ -1,0 +1,84 @@
+.popular-sports {
+  width: 100%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #030303;
+  margin-bottom: 20px;
+}
+
+.sports-grid-custom {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual full-height cards */
+.sport-card {
+  position: relative;
+  width: 316px;
+  height: 352px;
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.sport-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 24px;
+}
+
+/* Stacked column for two sports */
+.stacked-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Cards inside stacked column */
+.stacked-card {
+  height: 168px; /* Half the height + gap = 352px total */
+}
+
+/* Sport label */
+.sport-label {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Responsive: stack everything on small screens */
+@media (max-width: 768px) {
+  .sports-grid-custom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sport-card,
+  .stacked-card {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .stacked-column {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

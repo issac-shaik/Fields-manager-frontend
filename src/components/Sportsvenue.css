@@ -1,0 +1,126 @@
+.card {
+    width: 309px;
+    height: 200px;
+    border-radius: 21px;
+    margin-left:-3.6%;
+    margin-top: -3%;
+    display: flex;
+    gap: 4rem;
+  }
+
+  .text {
+    color: #030303;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Little_Elm{
+    width: 310px;
+    max-width: 310px;
+    height: 200px;
+    border-radius: 21px;
+    margin-bottom:-8%;
+  }
+
+  .Vistara{
+    width: 310px;
+    height: 200px;
+    border-radius: 21px;
+    margin-bottom:-8%;
+  }
+
+  .Dfw_badminton{
+    width: 301px;
+    max-width:301px;
+    height: 200px;
+    border-radius: 21px;
+    margin-bottom:-8%;
+  }
+
+  .rating {
+    cursor: pointer;
+    width: 100px;
+    height: 31px;
+    padding: 0px 8px;
+    border: 10;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    line-height: 24px;
+    outline: none;
+    position: absolute;
+    transform: translateX(-50%);
+    
+  }
+
+  .area {
+    color: #858585;
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 16px;
+    display: flex;
+    margin-top:-12%;
+  }
+  
+  .distance {
+    color: #858585;
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 16px;
+    text-align: right;
+    margin-left: auto;
+  }
+
+  .area-distance {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonBook{
+    cursor: pointer;
+    width: 60px;
+    height: 27px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #3a4671;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 20px;
+    outline: none;
+    margin-left: 10%;
+
+    
+    
+    
+  }
+
+  .display-book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-left: 90%;
+  
+}
+  
+.display{
+  display: flex;
+}
+
+.displaynew{
+  display: flex;
+  flex-direction: column;
+}
+  
+  
