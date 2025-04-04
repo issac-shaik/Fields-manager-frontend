@@ -1,0 +1,33 @@
+.join-game-section {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .join-game-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .join-game-title {
+    font-weight: lighter;
+    color: #333;
+    font-size: 18px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+  
+  .join-button {
+    background-color: #3a4671;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  

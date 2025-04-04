@@ -1,0 +1,48 @@
+.hero-section {
+    background-image: url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDUzMDJ8MHwxfHNlYXJjaHwzMnx8Y3JpY2tldCUyMGdyb3VuZHxlbnwxfHx8fDE3MDg0NDczMDZ8MA&ixlib=rb-4.0.3&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  /* Medium screens (tablets) */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 24px;
+    }
+  
+    .hero-subtitle {
+      font-size: 16px;
+    }
+  }
+  
+  /* Small screens (phones) */
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 20px;
+    }
+  
+    .hero-subtitle {
+      font-size: 14px;
+    }
+  }
+  

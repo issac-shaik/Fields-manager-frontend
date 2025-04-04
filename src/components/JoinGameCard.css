@@ -1,0 +1,100 @@
+.game-card {
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 10px 2px 20px rgba(0, 0, 0, 0.15); /* Darker shadow */
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .game-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .game-level {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: inline-block;
+  }
+  
+  .dot.filled {
+    background-color: #ff2d55;
+  }
+  
+  .join-button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .game-info {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .icon {
+    color: #30b330;
+    font-size: 20px;
+  }
+  
+  .game-description {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .game-host {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .host-name {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .players-joined {
+    font-size: 13px;
+    color: gray;
+    margin: 0;
+  }
+  
